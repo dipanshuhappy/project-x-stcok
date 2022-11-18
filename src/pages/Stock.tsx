@@ -77,8 +77,8 @@ function Stock({ id }: { id: number }) {
           </Tfoot>
         </Table>
       </TableContainer>
-      <TableContainer>
-        <Table variant="simple" colorScheme="blackAlpha">
+      <TableContainer marginTop={"20"}>
+        <Table variant="striped" colorScheme="cyan">
           <TableCaption>Share Holding</TableCaption>
           <Thead>
             <Tr>
